@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Calculator System</title>
+    <link rel="stylesheet" href="calculator-complete.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Complete Calculator System</h1>
+    <div style="text-align: center; margin: 20px;">
+        <button class="nav-button" data-calculator="scientific">Scientific Calculator</button>
+        <button class="nav-button" data-calculator="mortgage">Mortgage Calculator</button>
+        <button class="nav-button" data-calculator="bmi">BMI Calculator</button>
+    </div>
+    <div id="calculatorContainer"></div>
+    <script src="calculator-complete.js"></script>
+    <script>
+        // Initialize the application when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            window.app = new CalculatorApp();
+        });
+    </script>
+</body>
+</html>
