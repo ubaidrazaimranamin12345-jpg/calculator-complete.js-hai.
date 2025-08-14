@@ -1,5 +1,4 @@
-# calculator-complete.js-hai.
-I am create a calculator
+
 // Complete Calculator System - All-in-One File
 // This file contains all calculator functionality in a single JavaScript file
 
